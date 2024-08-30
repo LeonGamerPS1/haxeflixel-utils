@@ -2,9 +2,12 @@ package src.haxe.flixel.utils.tools;
 
 
 
-
+import src.haxe.flixel.fileUtil.FileCreation;
+using StringTools;
 class Main {
 	private static function main() {
-      trace("lul!");
+		var lol = FileCreation.read("logo.txt");
+        
+		Sys.println(lol);
 	}
 }

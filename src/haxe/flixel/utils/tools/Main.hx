@@ -1,7 +1,10 @@
 package src.haxe.flixel.utils.tools;
 
+
+
+
 class Main {
-     private static function main() {
-        
-     }
+	private static function main() {
+      trace("lul!");
+	}
 }

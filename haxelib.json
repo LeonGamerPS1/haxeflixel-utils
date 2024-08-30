@@ -1,0 +1,15 @@
+{
+  "name": "haxeflixel-utils",
+  "url" : "https://github.com/jasononeil/useless/",
+  "license": "MIT",
+  "tags": ["cross", "useless"],
+  "description": "Shortcuts/Util Library for HaxeFlixel.",
+  "version": "0.0.1",
+  "classPath": "src/",
+  "releasenote": "This Lib is in its Alpha State! Use with care.",
+  "contributors": ["Juraj","Jason","Nicolas"],
+  "dependencies": {
+    "flixel": "5.5.0"
+  },
+  "main": "tools.Main"
+}

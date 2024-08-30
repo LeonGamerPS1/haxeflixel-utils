@@ -1,6 +1,6 @@
 {
   "name": "haxeflixel-utils",
-  "url" : "https://github.com/jasononeil/useless/",
+  "url" : "https://github.com/LeonGamerPS1/haxeflixel-utils",
   "license": "MIT",
   "tags": ["cross", "useless"],
   "description": "Shortcuts/Util Library for haxeflixel.",
@@ -11,5 +11,5 @@
   "dependencies": {
     "flixel": "5.5.0"
   },
-  "main": "src.haxe.flixel.utils.tools.main"
+  "main": "src.haxe.flixel.utils.tools.Main"
 }

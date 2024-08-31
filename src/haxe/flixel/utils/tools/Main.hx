@@ -10,8 +10,9 @@ class Main {
 	private static function main() {
 		var lol = FileCreation.read("logo.txt");
 		var version = FileCreation.read(".gitver");
+		Sys.command("color a");
 		Sys.println(lol + '\nVersion: $version');
 		var onlineversion = VersionChecker.getVersion(version);
-		trace(onlineversion);
+
 	}
 }

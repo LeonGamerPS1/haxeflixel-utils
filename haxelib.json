@@ -9,7 +9,8 @@
   "releasenote": "This Lib is in its Alpha State! Use with care.",
   "contributors": ["494kd"],
   "dependencies": {
-    "flixel": "5.5.0"
+    "flixel": "5.5.0",
+    "lime": "8.0.1"
   },
   "main": "src.haxe.flixel.utils.tools.Main"
 }

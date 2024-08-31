@@ -33,6 +33,7 @@ class FileCreation {
 	/**
 	 * The function that deletes files.
 	 * @param path Path to the file that should be deleted. 
+	 * @since 0.0.2
 	 */
 	public static function delete(path:String) {
 		if (path == null)
@@ -44,10 +45,12 @@ class FileCreation {
 	 * Copies the content of a file.
 	 * @param source The source file.
 	 * @param destination The file that should get its content replaced with the Source File's content.
+	 * @since 0.0.2
 	 */
 	public static function copy(source, destination) {
 		if (source == null)
 			throw "NULL ERROR: SOURCE  IS NULL!";
 		File.copy(source, destination);
+
 	}
 }

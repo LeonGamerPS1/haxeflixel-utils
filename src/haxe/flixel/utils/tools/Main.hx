@@ -1,7 +1,8 @@
 package src.haxe.flixel.utils.tools;
 
+import haxe.flixel.fileUtil.FileCreation;
 import haxe.display.Protocol.Version;
-import src.haxe.flixel.fileUtil.FileCreation;
+
 
 using StringTools;
 

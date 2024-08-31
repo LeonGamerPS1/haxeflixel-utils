@@ -1,18 +1,16 @@
 package;
 
+import haxe.flixel.utils.commandLine.CommandLine;
 import haxe.flixel.fileUtil.FileCreation;
 import haxe.display.Protocol.Version;
-
 
 using StringTools;
 
 class Main {
 	private static function main() {
 		var lol = FileCreation.read("logo.txt");
-		var version = FileCreation.read(".gitver");
-		Sys.command("color a");
-		Sys.println(lol + '\nVersion: $version');
-		var onlineversion = VersionChecker.getVersion(version);
-
+		Sys.println(lol);
+		var args = Sys.args();
+		CommandLine.parse(args);
 	}
 }

@@ -4,7 +4,7 @@
   "license": "MIT",
   "tags": ["cross", "useless"],
   "description": "Shortcuts/Util Library for haxeflixel.",
-  "version": "0.0.1-fix",
+  "version": "0.0.2",
   "classPath": "src/",
   "releasenote": "This Lib is in its Alpha State! Use with care.",
   "contributors": ["494kd"],

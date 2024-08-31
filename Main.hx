@@ -1,4 +1,4 @@
-package src.haxe.flixel.utils.tools;
+package;
 
 import haxe.flixel.fileUtil.FileCreation;
 import haxe.display.Protocol.Version;

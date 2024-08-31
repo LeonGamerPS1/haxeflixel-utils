@@ -1,4 +1,4 @@
-package src.haxe.flixel.utils.tools;
+package;
 
 import haxe.http.HttpMethod;
 import haxe.http.HttpBase;

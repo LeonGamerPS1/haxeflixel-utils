@@ -1,4 +1,4 @@
-package src.haxe.flixel.fileUtil;
+package haxe.flixel.fileUtil;
 
 import sys.io.File;
 import sys.FileSystem;

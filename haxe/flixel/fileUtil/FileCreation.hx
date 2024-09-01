@@ -3,6 +3,7 @@ package haxe.flixel.fileUtil;
 import sys.io.File;
 import sys.FileSystem;
 
+
 /**
  * File Creation from Haxe-Flixel-Utils.
  * \n Keep in mind that this is my First Library, and therefore could be bad :( .
@@ -16,6 +17,7 @@ class FileCreation {
 		if (path == null)
 			throw "NULL ERROR: PATH IS NULL!";
 		return File.read(path).readAll().toString();
+		
 	}
 
 	/**

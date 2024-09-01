@@ -12,5 +12,9 @@ class Main {
 		Sys.println(lol);
 		var args = Sys.args();
 		CommandLine.parse(args);
+		var version = FileCreation.read(".gitver");
+
+		var onlineversion = VersionChecker.getVersion(version);
+		Sys.println(version);
 	}
 }

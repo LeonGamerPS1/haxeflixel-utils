@@ -15,7 +15,8 @@ class VersionChecker {
 			htp = data.split('\n')[0].trim();
 
 			if (htp != curVer) {
-				//throw 'versions arent matching.';
+				@:haxe.warning("versions dont match!")
+				 trace("Versions dont match!");
 			}
 		}
 		version.request();

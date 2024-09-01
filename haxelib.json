@@ -4,12 +4,9 @@
   "license": "MIT",
   "tags": ["cross", "useless"],
   "description": "Shortcuts/Util Library for haxeflixel.",
-  "version": "0.0.1-fix",
-  "classPath": "src/",
-  "releasenote": "This Lib is in its Alpha State! Use with care.",
+  "version": "0.0.2",
+  "releasenote": "Shortcut/Util Lib for haxe and haxeflixel. \n More to come!",
   "contributors": ["494kd"],
-  "dependencies": {
-    "flixel": "5.5.0"
-  },
-  "main": "src.haxe.flixel.utils.tools.Main"
+ 
+  "main": "Main"
 }
